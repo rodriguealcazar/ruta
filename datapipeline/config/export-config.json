@@ -1,0 +1,14 @@
+{
+	"linear_tags": false,
+	"include_tags": [
+		"amenity",
+		"name",
+		"drink",
+		"food",
+		"cuisine"
+	],
+	"attributes": {
+		"type": true,
+		"id": true
+	}
+}

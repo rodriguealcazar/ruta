@@ -1,0 +1,6 @@
+CREATE USER ruta WITH PASSWORD 'ruta';
+
+CREATE DATABASE ruta WITH OWNER ruta;
+GRANT ALL ON DATABASE ruta TO ruta;
+\c ruta
+CREATE EXTENSION postgis;

@@ -1,0 +1,77 @@
+{
+    "environments": [
+        {
+            "type": "cafe",
+            "category": "",
+            "sub_category": "",
+            "filters": [
+                {
+                    "tags": [
+                        "amenity=cafe"
+                    ],
+                    "element_types": [
+                        "area",
+                        "node"
+                    ]
+                }
+            ],
+            "relations": {
+                "close_to": {
+                    "buffer": {
+                        "type": "static",
+                        "size": 200.0
+                    }
+                }
+            }
+        },
+        {
+            "type": "bar",
+            "category": "",
+            "sub_category": "",
+            "filters": [
+                {
+                    "tags": [
+                        "amenity=bar",
+                        "amenity=pub"
+                    ],
+                    "element_types": [
+                        "area",
+                        "node"
+                    ]
+                }
+            ],
+            "relations": {
+                "close_to": {
+                    "buffer": {
+                        "type": "static",
+                        "size": 200.0
+                    }
+                }
+            }
+        },
+        {
+            "type": "restaurant",
+            "category": "",
+            "sub_category": "",
+            "filters": [
+                {
+                    "tags": [
+                        "amenity=restaurant"
+                    ],
+                    "element_types": [
+                        "area",
+                        "node"
+                    ]
+                }
+            ],
+            "relations": {
+                "close_to": {
+                    "buffer": {
+                        "type": "static",
+                        "size": 200.0
+                    }
+                }
+            }
+        }
+    ]
+}
